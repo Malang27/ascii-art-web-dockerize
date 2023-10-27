@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ASCII Art WEB</title>
+	<link href="/static/stylesheet.css" rel="stylesheet"/>
+</head>
+<body>
+	<div class="navbar">
+		<img src="./static/asset/ascii.png"  alt="logo" class="logo">
+		<a href="#">Accueil</a>
+		<a href="#">Formation</a>
+		<a href="aide">Aide</a>
+	</div>
+	
+	<div class="back">
+		<section class="infos">
+			Hey 🙂 ! tu recherchais un site pour 🦸‍♂️: bah bienvenue 🎮 jouons avec les caractères
+		</section>
+		<h1>ASCII Art Generator</h1>
+		
+		
+		<form action="/ascii-art" method="POST">
+			<textarea name="text" rows="5" cols="40" placeholder="Entrez votre texte ici"></textarea>
+			<br> <br>
+			<select name="banner" class="cursor">.html
+				<option value="standard">Standard</option>
+				<option value="thinkertoy">Thinkertoy</option>
+				<option value="shadow">Shadow</option>
+			</select>
+			<br> <br>
+			<input type="submit" value="Générer ASCII Art"> 
+		</form>
+		{{if .Result}}
+		<h2>Résultat:</h2>
+		<div class="pre">
+			<pre>{{.Result}}</pre>
+			
+		</div>
+		{{end}}
+		
+		
+	</div>
+	<footer class="fin">
+		<p>&copy;2023 | tout droit est réservé</p>
+	</footer>
+		
+	</body>
+	</html>
+
