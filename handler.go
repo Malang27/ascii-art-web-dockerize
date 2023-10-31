@@ -41,11 +41,6 @@ func AsciiArtHandler(w http.ResponseWriter, r *http.Request) {
 		banner := r.FormValue("banner")
 		if text == "" {
 			AffichePage(w, r, "index.html", "template obligatoire")
-			//http.Error(w,"champ obligatoire", 400)
-			//w.(http.Flusher).Flush()
-			//fmt.Fprint(w,"champ obligatoire")
-			//http.Redirect(w, r, "/", http.StatusSeeOther)
-			//AffichePage()
 			return
 		}
 
