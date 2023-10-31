@@ -4,9 +4,9 @@
 For this project, you need to work with Docker, a container virtualization platform. Containers are lightweight, isolated environments that allow applications to run consistently, regardless of where they are deployed.
 
 ## Authors
-- Maodo LO (https://learn.zone01dakar.sn/git/maolo)
-- Serigne Fallou DIA (https://learn.zone01dakar.sn/git/sedia)
 - Malang COULIBALY (https://learn.zone01dakar.sn/git/malcoulibaly)
+- Serigne Fallou DIA (https://learn.zone01dakar.sn/git/sedia)
+- Maodo LO (https://learn.zone01dakar.sn/git/maolo)
 
 ## Use
 
