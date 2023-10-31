@@ -1,7 +1,7 @@
-# My Project ASCII Art WEB
+# My Project ASCII Art WEB Dockerize
 
 ## Description
-This project is an ASCII Art application that allows you to generate ASCII art using different banner styles. Users can enter text and choose a banner style, then the app generates corresponding ASCII art.
+For this project, you need to work with Docker, a container virtualization platform. Containers are lightweight, isolated environments that allow applications to run consistently, regardless of where they are deployed.
 
 ## Authors
 - Maodo LO (https://learn.zone01dakar.sn/git/maolo)
@@ -10,20 +10,16 @@ This project is an ASCII Art application that allows you to generate ASCII art u
 
 ## Use
 
-The application uses the following algorithm to generate ASCII art:
-
-The user enters text in the text box.
-The application reads the banner file corresponding to the style chosen by the user.
-Using the banner dictionary and formatted text, the application generates ASCII art by replacing each character in the text with its representation in the banner.
-The generated ASCII art is displayed to the user.
-For more details on the source code, please see the main.go file and the asciifs package.
+In this project, you'll apply principles similar to the previous subject. The key tasks include creating a Dockerfile, building an image, and running a container. Additionally, you must include metadata for Docker objects and be vigilant in managing unused objects, commonly known as "garbage collection." This project revolves around efficient containerization and Docker management while incorporating essential metadata for documentation and cleanup.
 
 ### How to Run
-1. Make sure you have Go installed on your system.
-2. Clone the project repository: git clone https://learn.zone01dakar.sn/git/sedia/ascii-art-web
-3. Navigate to the project directory: cd ascii-art-web
-4. Run the application using the following command: go run main.go
-5. Open your web browser and navigate to http://localhost:8080 to access the application user interface.
+1. Make sure Docker is installed
+2. Clone the project repository: git clone https://learn.zone01dakar.sn/git/malcoulibaly/ascii-art-web-dockerize
+3. Navigate to the project directory: cd ascii-art-web-dockerize
+4. Build your Docker image
+5. Run a Docker container
+6. Access the running container
+7. Open your web browser and navigate to http://localhost:8080 to access the application user interface.
 
 ## Example of use
 Enter the text you want to convert to ASCII art in the text area.
